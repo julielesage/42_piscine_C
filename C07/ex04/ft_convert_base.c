@@ -10,6 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/* • Écrire une fonction qui renvoie le résultat de la conversion de la chaîne nbr exprimée en une base base_from dans une base base_to.
+• nbr, base_from, base_to ne seront pas forcement modifiable.
+• nbr suivra les m ˆme règles que ft_atoi_base. Attention donc au ’+’, ’-’ et aux
+whitespaces.
+• Le nombre representé par nbr tient dans un int.
+• Si une base est incorrecte, la fonction renverra NULL.
+• Le nombre retourné doit être préfixé seulement par un seul et unique ’-’ si c’est
+nécessaire, pas de whitespaces ou de ’+’.*/
+
 #include <stdlib.h>
 #include <stdio.h>
 
